@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,18 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var tape = require( 'tape' );
-var main = require( './../../dist' );
+import { ndarray } from '@stdlib/types/ndarray';
+
+/**
+* Returns the size (i.e., number of elements) of a specified dimension for a provided ndarray.
+*
+* @param x - input ndarray
+* @param dim - dimension index
+* @returns dimension size
+*
+* @example
+* var zeros = require( `@stdlib/ndarray/zeros` );
+*
+* var d = numelDimension( zeros( [ 4, 2, 3 ] ), 0 );
+* // returns 4
+*/
+declare function numelDimension( x: ndarray, dim: number ): number;
 
 
-// TESTS //
+// EXPORTS //
 
-tape( 'main export is defined', function test( t ) {
-	t.ok( true, __filename );
-	t.strictEqual( main !== void 0, true, 'main export is defined' );
-	t.end();
-});
+export = numelDimension;
