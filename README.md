@@ -45,30 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-numel-dimension
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var numelDimension = require( '@stdlib/ndarray-numel-dimension' );
+import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@deno/mod.js';
 ```
 
 #### numelDimension( x, dim )
@@ -76,7 +60,7 @@ var numelDimension = require( '@stdlib/ndarray-numel-dimension' );
 Returns the size (i.e., number of elements) of a specified dimension for a provided [ndarray][@stdlib/ndarray/ctor].
 
 ```javascript
-var zeros = require( '@stdlib/ndarray-zeros' );
+import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
 
 var x = zeros( [ 4, 2, 3 ] );
 // returns <ndarray>
@@ -117,11 +101,11 @@ The function accepts the following arguments:
 <!-- eslint-disable new-cap -->
 
 ```javascript
-var zeros = require( '@stdlib/ndarray-zeros' );
-var slice = require( '@stdlib/ndarray-slice' );
-var E = require( '@stdlib/slice-multi' );
-var S = require( '@stdlib/slice-ctor' );
-var numelDimension = require( '@stdlib/ndarray-numel-dimension' );
+import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice@deno/mod.js';
+import E from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
+import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
+import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@deno/mod.js';
 
 // Create an array:
 var x = zeros( [ 10, 10, 10, 10 ] );
@@ -191,7 +175,7 @@ for ( i = 0; i < slices.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -251,15 +235,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-numel-dimension/main/LICENSE
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/deno
 
-[@stdlib/ndarray/shape]: https://github.com/stdlib-js/ndarray-shape
+[@stdlib/ndarray/shape]: https://github.com/stdlib-js/ndarray-shape/tree/deno
 
 <!-- <related-links> -->
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array/tree/deno
 
-[@stdlib/ndarray/numel]: https://github.com/stdlib-js/ndarray-numel
+[@stdlib/ndarray/numel]: https://github.com/stdlib-js/ndarray-numel/tree/deno
 
 <!-- </related-links> -->
 
