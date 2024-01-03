@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@deno/mod.js';
+import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@v0.1.0-deno/mod.js';
 ```
 
 #### numelDimension( x, dim )
@@ -105,7 +105,7 @@ import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.
 import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice@deno/mod.js';
 import E from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@deno/mod.js';
 import S from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@deno/mod.js';
-import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@deno/mod.js';
+import numelDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@v0.1.0-deno/mod.js';
 
 // Create an array:
 var x = zeros( [ 10, 10, 10, 10 ] );
