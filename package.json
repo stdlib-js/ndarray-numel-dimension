@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-numel-dimension",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the size (i.e., number of elements) of a specified dimension for a provided ndarray.",
   "license": "Apache-2.0",
   "author": {
@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-integer": "^0.1.0",
     "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
-    "@stdlib/ndarray-base-numel-dimension": "github:stdlib-js/ndarray-base-numel-dimension#main",
+    "@stdlib/ndarray-base-numel-dimension": "^0.2.0",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.2.0"
   },
