@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-numelDimension = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@umd/browser.js' )
+numelDimension = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var numelDimension = require( 'path/to/vendor/umd/ndarray-numel-dimension/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -132,7 +132,7 @@ The function accepts the following arguments:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel-dimension@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
