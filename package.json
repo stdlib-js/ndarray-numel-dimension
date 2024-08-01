@@ -39,14 +39,14 @@
   "dependencies": {
     "@stdlib/assert-is-integer": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
-    "@stdlib/ndarray-base-numel-dimension": "^0.3.1",
+    "@stdlib/ndarray-base-numel-dimension": "^0.3.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/ndarray-slice": "^0.2.1",
-    "@stdlib/ndarray-zeros": "^0.2.1",
+    "@stdlib/ndarray-slice": "^0.2.2",
+    "@stdlib/ndarray-zeros": "^0.3.0",
     "@stdlib/slice-ctor": "^0.2.2",
     "@stdlib/slice-multi": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
